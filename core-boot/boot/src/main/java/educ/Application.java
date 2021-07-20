@@ -2,6 +2,7 @@ package educ;
 
 import educ.app.Issue;
 import educ.app.IssueException;
+import equation.Equation;
 import polygon.Polygon;
 
 public class Application {
@@ -16,9 +17,9 @@ public class Application {
         if (polygon.isEnable()) {
             polygon.run();
         }
-        Issue e = new Equation();
-        if (polygon.isEnable()) {
-            polygon.run();
+        Issue equation = new Equation();
+        if (equation.isEnable()) {
+            equation.run();
         }
     }
 }
